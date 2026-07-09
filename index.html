@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Aurelion Perpetual</title>
+    <meta
+      name="description"
+      content="A clean luxury watch landing page with a scroll-controlled exploded movement animation."
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header" aria-label="Primary navigation">
+      <a class="brand" href="#top" aria-label="Aurelion home">
+        <span class="brand-mark"></span>
+        <span>Aurelion</span>
+      </a>
+      <nav class="nav-links" aria-label="Site">
+        <a href="#craft">Craft</a>
+        <a href="#calibre">Calibre</a>
+        <a href="#reserve">Reserve</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-label="Aurelion Perpetual hero">
+        <div class="hero-sticky">
+          <canvas id="watch-canvas" width="1280" height="720" aria-label="Exploded luxury watch animation"></canvas>
+          <div class="hero-shade" aria-hidden="true"></div>
+          <div class="hero-content">
+            <p class="eyebrow">Geneva automatic calibre</p>
+            <h1>Aurelion Perpetual</h1>
+            <p class="hero-copy">
+              A stainless-steel dress watch with a green lacquer dial, assembled from 241 precise views of its movement.
+            </p>
+            <div class="hero-actions">
+              <a class="button primary" href="#reserve">Reserve a viewing</a>
+              <a class="button secondary" href="#craft">Explore craft</a>
+            </div>
+          </div>
+          <div class="scroll-cue" aria-hidden="true">
+            <span></span>
+          </div>
+        </div>
+      </section>
+
+      <section id="craft" class="section intro-section">
+        <div class="section-grid">
+          <div>
+            <p class="eyebrow">Quiet precision</p>
+            <h2>Built around restraint, balance, and mechanical depth.</h2>
+          </div>
+          <p>
+            The Perpetual pairs a polished 39 mm case with a five-link bracelet, a curved sapphire crystal, and a dial
+            finished in layered green lacquer. Every surface is designed to catch light without shouting for it.
+          </p>
+        </div>
+      </section>
+
+      <section class="feature-band" aria-label="Watch details">
+        <article class="feature">
+          <span>01</span>
+          <h3>Mirror-polished bezel</h3>
+          <p>Rounded steel edges create a soft reflection line from crown to lug.</p>
+        </article>
+        <article class="feature">
+          <span>02</span>
+          <h3>Applied indices</h3>
+          <p>Faceted markers are cut to remain legible in low evening light.</p>
+        </article>
+        <article class="feature">
+          <span>03</span>
+          <h3>Integrated bracelet</h3>
+          <p>Brushed outer links and polished centers give the watch its measured rhythm.</p>
+        </article>
+      </section>
+
+      <section id="calibre" class="section calibre-section">
+        <div class="calibre-copy">
+          <p class="eyebrow">Calibre 7241</p>
+          <h2>Visible complexity, tuned for daily wear.</h2>
+          <p>
+            The automatic movement carries a 68-hour reserve, a free-sprung balance, and a decorated rotor visible
+            through the exhibition case back. It is regulated in six positions before casing.
+          </p>
+        </div>
+        <dl class="specs">
+          <div>
+            <dt>Case</dt>
+            <dd>39 mm steel</dd>
+          </div>
+          <div>
+            <dt>Reserve</dt>
+            <dd>68 hours</dd>
+          </div>
+          <div>
+            <dt>Depth</dt>
+            <dd>100 meters</dd>
+          </div>
+          <div>
+            <dt>Crystal</dt>
+            <dd>Sapphire</dd>
+          </div>
+        </dl>
+      </section>
+
+      <section id="reserve" class="reserve-section" aria-label="Reserve a private viewing">
+        <div>
+          <p class="eyebrow">Private allocation</p>
+          <h2>Reserve a closer look.</h2>
+        </div>
+        <a class="button primary" href="mailto:atelier@aurelion.example">atelier@aurelion.example</a>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
