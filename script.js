@@ -1,5 +1,5 @@
 const frameCount = 241;
-const framePath = (index) => `assets/frames/frame_${String(index).padStart(6, "0")}.png`;
+const framePath = (index) => `assets/frames/frame_${String(index).padStart(6, "0")}.webp`;
 
 const canvas = document.querySelector("#watch-canvas");
 const context = canvas.getContext("2d", { alpha: false });
